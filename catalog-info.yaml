@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  namespace: personal
+  name: test-backstage
+  title: test catalog file
+  description: test file
+spec:
+  type: library
+  lifecycle: production
+  owner: group:devops-async
+  system: devops
